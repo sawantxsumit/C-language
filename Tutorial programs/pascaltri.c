@@ -18,11 +18,16 @@ int combination(int n, int r)
 }
 int main()
 {
-    int n;
-    printf(" enter the number of terms :");
-    scanf("%d",&n);
-    for(int i=0; i<=n; i++)
+    // int n;
+    // printf(" enter the number of terms :");
+    // scanf("%d",&n);
+    for(int i=0; i<5; i++)
     {
+        for (int j = 5; j >i; j--)
+        {
+            printf(" ");
+        }
+        
        for(int j=0; j<=i; j++)
        {
         int icj= combination(i,j);
