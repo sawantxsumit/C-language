@@ -18,9 +18,6 @@ int combination(int n, int r)
 }
 int main()
 {
-    // int n;
-    // printf(" enter the number of terms :");
-    // scanf("%d",&n);
     for(int i=0; i<5; i++)
     {
         for (int j = 5; j >i; j--)
